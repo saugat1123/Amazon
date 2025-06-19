@@ -1,0 +1,449 @@
+*{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+
+}
+.navbar{
+    height:60px;
+    background-color: #0F1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:60px;
+    width:150px;
+    margin-left: 10px;
+   margin-bottom: 10px;
+}
+.nav-address:hover,#language:hover,#acc:hover,#i:hover,#r:hover{
+    border: 2.5px solid rgb(236, 226, 226);
+}
+.logo{
+    height:60px;
+    width:150px;
+      background-image:url(juy.jpg);
+    background-size:cover;
+    margin-top:2px;
+}
+.nav-address{
+    margin: 5px;
+    color:white;
+    height:50px;
+    width:80px;
+    font-size: 14px;
+display:flex;
+flex-direction: column;
+margin-left: 15px;
+}
+
+#icon{
+    width:60px;
+    height:30px;
+    display: flex;
+}
+#mathi{
+    height:20px;
+    width:60px;
+    color:white;
+    display:block;
+    height: 20px;
+    margin-left: 15px;
+}
+#tala{
+    color:#f7f5f5;
+    padding-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+#left{
+    padding-right: 0;
+    margin-right: 0;
+    background-color: #cccccc;
+    border-radius: 8px;
+border-right:0px solid black ;
+}
+#right{
+
+    background-color:rgb(228, 143, 15) ;
+     border-radius: 5px;
+     width: 45px;
+     border-left: 0px solid #0F1111;
+}
+#search{
+    display:flex;
+    height: 40px;
+    background-color: #f3f3f3;
+    text-align:center;
+    border-radius: 5px;
+
+   
+}
+#search:hover{
+    border:2px solid rgb(235, 130, 11);
+}
+#mid{
+    background-color: white;
+     border-radius: 5px;
+     width:450px;
+     font-size: larger;
+}
+
+#language{
+    width:65px;
+    height:50px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    display:flex;
+    align-items: center;
+    border:transparent;
+
+}
+#lang{
+    display: block;
+    background-color: #0F1111;
+    color: #ffffff;
+    font-weight: bolder;
+    margin-top: 10px;
+  
+}
+#jhanda{
+    display:block;
+    margin-right: 4px;
+    margin-top: 8px;
+}
+#up{
+    font-size: 14px;
+    display:block;
+    background-color: #0F1111;
+    margin-top: 10px;
+}
+#down{
+    font-weight: bolder;
+    color: white;
+    display:block;
+    width:130px;
+    font-size: 14px;
+    display: flex;
+}
+#acc{
+    height:50px;
+    text-align: left;
+    width: 130px;
+    padding-left: 0%;
+    margin-right: 0%;
+    
+}
+   #arow{
+    display:block;
+    margin-left: 5px;
+    padding-left: 0px;
+   }
+   #orders{
+    font-size: 14px;
+    font-weight: bolder;
+   }
+   #return{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+   }
+   #cart{
+    margin-right: 8px;
+    font-size: 34px;
+   }
+   #r{
+height:50px;
+width:100px;
+   }
+   #y{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+   }
+   #i{
+    display: flex;
+    height:50px;
+    width:80px;
+    align-items: center;
+   }
+   #nav-main{
+    height:40px;
+    background-color: #232f3e;
+    align-content: space-around;
+    display:flex;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .middle{
+    color:white;
+    padding:5px;
+   }
+   #nav-all{
+    display:flex;
+    color:white;
+    align-items: center;
+    width:60px;
+    border-right: 0.5px solid black;
+   }
+   #bar{
+    margin:5px;
+    padding-left:5px;
+   }
+   #t{
+    margin-top:10px;
+   
+   }
+   #e{
+    width:150px;
+    border-right:0.5px solid black;
+    text-align: center;
+
+   }
+  #hero{
+    background-image: url(gb.jpg);
+    background-blend-mode: gradient;
+    background-size: cover;
+    height: 740px;
+    width:100%;
+    margin:0px;
+    display:flex;
+    white-space-collapse: collapse;
+    visibility: visible;
+   }
+   #layout{
+   margin-top :250px;
+    background-color:hsl(0,0%,90%);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    height:390px;
+    width:100%; 
+    display: flex;
+    justify-content:space-between;
+    padding: 50px;
+    padding-left:10px;
+     padding-right:10px;
+     background-blend-mode:screen;
+   }
+   #shop{
+    height:400px;
+    width:24%;
+    background-color: white;
+    text-align: left;
+    padding-top: 15px;
+    margin-left: 8px;
+   }
+   .item4{
+    height:400px;
+    width:22%;
+    background-color: white;
+    text-align: left;
+    padding-top: 15px;
+   
+   }
+   
+   #toy {
+    height:300px;
+ background-image:url(toyy.jpg);
+    background-size: cover;
+    margin:10px;
+  
+   }
+     #box2 {
+    height:300px;
+ background-image:url(boxx2.jpg);
+    background-size: cover;
+    margin:10px;
+   
+   }
+     #box3 {
+    height:300px;
+    width:auto;
+ background-image:url(boxx3.jpg);
+    background-size: cover;
+    margin:10px;
+   
+   }
+       #box4 {
+    height:300px;
+ background-image:url(boxxxx4.jpg);
+    background-size: cover;
+    margin:10px;
+    margin-right: 8px;
+   }
+   h2{
+    display:block;
+    height:30px;
+    margin-left: 10px;
+   }
+   #we{
+    display: block;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #2162A1
+   }
+   footer{
+    height:700px;
+    width:100%;
+    background-color: aqua;
+   }
+   .foot{
+height:200px;
+background-color: white;
+   }
+   #upperr{
+    height:110px;
+    width:100%;
+    margin-top:50px;
+    border:1px solid rgb(175, 173, 173);
+    border-radius: 4px;
+    background-color: rgb(253, 253, 252);
+    text-align: center;
+    align-items: center;
+    padding-top: 55px;
+   }
+   #signinrec{
+    font-size: 24px;
+    font-weight: 600;
+   }
+ #signin{
+    background-color: rgb(245, 241, 11);
+    height:45px;
+    width:180px;
+    border-radius: 28px;
+    border-color: white;
+    padding:5px;
+    margin-top: 6px;
+ }  
+ #niche{
+    font-size: 12px;
+    padding-top: 5px;
+ }
+ #sh{
+    color: #2162A1;
+    text-decoration: underline;
+ }
+ #totop{
+    height:40px;
+    width:100%;
+    background-color:#41556dda;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    align-items: center;
+ }
+#lasstly{
+    background-color: #232f3e;
+    height:300px;
+    width:100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#tew{
+    padding-top:25px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+ul{
+    padding-top: 10px;
+    text-decoration: none;
+margin-left:0px
+}
+#tad:hover{
+    text-decoration: underline;
+}
+#tad{
+    display: block;
+    color: #dddddd;
+    margin: 10px;
+text-align: left;
+}
+#downnav{
+    border-top: 1px solid rgb(230, 215, 215);
+    height:150px;
+    background-color: #232f3e;
+    display: flex;
+}
+#downlogo{
+    margin:25px;
+    margin-left: 300px;
+    height:50px;
+    width:100px;
+    background-image: url(juy.jpg);
+    background-color:#232f3e;
+    background-blend-mode:screen;
+    background-size:contain;
+}
+#downlang{
+    height:35px;
+    width:150px;
+    border:1px solid rgb(192, 187, 187);
+    border-radius: 8px;
+    color:rgb(192, 187, 187);
+    margin: 5PX;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 200px;
+display: flex;
+align-items: center;
+}
+#dsd{
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+#wr{
+    padding-right: 5px;
+    margin-left: 40px ;
+}
+#usd{
+     height:35px;
+    width:190px;
+    border:1px solid rgb(192, 187, 187);
+    border-radius: 8px;
+    color:rgb(192, 187, 187);
+    justify-content: center;
+    margin-top: 30px;
+    margin-left:0px;
+display: flex;
+align-items: center;
+}
+#np{
+      height:35px;
+    width:190px;
+    border:1px solid rgb(192, 187, 187);
+    border-radius: 8px;
+    color:rgb(192, 187, 187);
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 5px;
+display: flex;
+align-items: center;
+}
+#ioio{
+    height:30px;
+    width:25px;
+    background-size: contain;
+    background-image:url(jhanda1.jpg);
+    margin-right: 5px;
+}
+#antim{
+    height:100px;
+    background-color: #131A22;
+    color:#dddddd;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+     padding-top: 22px;
+}
+#qq{
+   font-weight: lighter;
+    padding:10px;
+}
